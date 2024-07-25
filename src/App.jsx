@@ -1,13 +1,15 @@
-import PersonalDetails from './PersonalDetails'
 import './App.css'
+import PersonalDetails from './PersonalDetails'
 import EducationalDetails from './EducationalDetails'
+import ProfessionalDetails from './ProfessionalDetails'
 
 function App() {
   return (
     <form>
-      <h1>CV Form</h1>
+      <h1>ODIN | CV Form | React</h1>
       <PersonalDetails />
       <EducationalDetails />
+      <ProfessionalDetails />
     </form>
   )
 }
