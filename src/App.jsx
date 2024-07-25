@@ -1,11 +1,13 @@
 import PersonalDetails from './PersonalDetails'
 import './App.css'
+import EducationalDetails from './EducationalDetails'
 
 function App() {
   return (
     <form>
-      <h1>CSV Form</h1>
+      <h1>CV Form</h1>
       <PersonalDetails />
+      <EducationalDetails />
     </form>
   )
 }

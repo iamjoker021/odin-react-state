@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .logo {
@@ -47,31 +46,27 @@ ul {
   padding: 0;
 }
 
-li {
-  margin: 0.5rem;
-}
-
-li > label {
-  margin: 0 0.5rem;
-}
 
 /*** Layout ***/
-fieldset > ul {
+form > ul {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  gap: 0.5rem;
 }
 
-fieldset > ul > li {
+form > ul > li {
   display: flex;
   flex: 1;
+  gap: 1rem;
+  align-items: center;
 }
 
-li > label {
+li > label,button {
   flex: 1;
 }
 
-li > input {
+li > input, span {
   flex: 2;
 }
