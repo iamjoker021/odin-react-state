@@ -12,7 +12,7 @@ export default function PersonalDetails() {
                 <ul>
                     <li>
                         <label htmlfor="name">Name: </label>
-                        {isEditMode && <input type="text" id="n/ame" name="name" value={name} onChange={(e) => setName(e.target.value)} />}
+                        {isEditMode && <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} />}
                         {!isEditMode && <span>{name}</span>}
                     </li>
                     <li>
