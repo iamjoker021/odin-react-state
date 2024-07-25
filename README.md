@@ -1,2 +1,2 @@
-# odin-react-state
-TheOdinProject to build a CSV Form using React
+# Odin CSV Website using React
+The Odin Project to build React website using React
